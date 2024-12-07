@@ -7,7 +7,7 @@ def index(request):
     try:
         if request.method == 'POST':
             city = request.POST['city']
-            res = urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=6c1c92bf6630cf48e6667f4fcdb4666d'+'&units=metric').read()
+            res = urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=mysecretapikey'+'&units=metric').read()
             json_data = json.loads(res)
 
             # Extract wind speed and convert to km/h
