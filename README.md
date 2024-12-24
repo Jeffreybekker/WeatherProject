@@ -5,7 +5,7 @@
 <p>You enter the city of your choice and you'll get the following:</p>
 <ul>
 <li>Country code</li>
-<li>Name of your choosen city</li>
+<li>Name of choosen city</li>
 <li>Coordinates</li>
 <li>Temperature</li>
 <li>Feels like temperature</li>
