@@ -13,3 +13,6 @@
 <li>Pressure (hPa)</li>
 <li>Humidity (%)</li>
 </ul>
+
+<h2>Urls endpoints</h2>
+<p>http://127.0.0.1:8000/</p>
