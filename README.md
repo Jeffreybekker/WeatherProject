@@ -7,9 +7,9 @@
 <li>Country code</li>
 <li>Name of choosen city</li>
 <li>Coordinates</li>
-<li>Temperature</li>
-<li>Feels like temperature</li>
-<li>Wind Speed</li>
-<li>Pressure</li>
-<li>Humidity</li>
+<li>Temperature (in degrees Celsius)</li>
+<li>Feels like temperature (in degrees Celsius)</li>
+<li>Wind Speed (in km/h)</li>
+<li>Pressure (in hPa)</li>
+<li>Humidity (in %)</li>
 </ul>
