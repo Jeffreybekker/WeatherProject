@@ -14,5 +14,8 @@
 <li>Humidity (%)</li>
 </ul>
 
-<h2>Urls endpoints</h2>
+<h2>URL Endpoints</h2>
 <p>http://127.0.0.1:8000/</p>
+
+<h2>What the Code Does</h2>
+<p>By entering a city name, you make an POST request to openweathermap.org. In the request you have an API key that gives permission to receive the data. The most interesting data for the weather app will be displayed.</p>
