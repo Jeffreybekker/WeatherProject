@@ -14,7 +14,7 @@
 <li>Humidity (%)</li>
 </ul>
 
-<h2>URL Endpoints</h2>
+<h2>URL Endpoint</h2>
 <p>http://127.0.0.1:8000/</p>
 
 <h2>What the Code Does</h2>
