@@ -1,6 +1,4 @@
 # Small Weather Project Using an API
-
-## Description
 <p>Welcome to my project. This is a weather app where you can find a couple of statistics.</p>
 <p>You enter the city of your choice and you'll get the following:</p>
 <ul>
