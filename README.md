@@ -45,7 +45,7 @@ python
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
 ```
-Copy the secret key and use it in your .env file.
+Copy the secret key and use it in your .env file.<br>
 7. Run the server:
 ```
 python manage.py runserver
