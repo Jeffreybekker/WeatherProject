@@ -49,7 +49,7 @@ print(get_random_secret_key())
 Copy the secret key and use it in your .env file.<br>
 
 7. Get the OpenWeather API key:
-- Go to https://openweathermap.org/apo
+- Go to https://openweathermap.org/api
 - Create an account
 - Go to your profile
 - Go to My API keys
