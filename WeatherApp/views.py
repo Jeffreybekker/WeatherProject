@@ -1,13 +1,19 @@
 from django.shortcuts import render
 import json 
 import urllib.request
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 # Create your views here.
 def index(request):
     try:
         if request.method == 'POST':
             city = request.POST['city']
-            res = urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=6c1c92bf6630cf48e6667f4fcdb4666d'+'&units=metric').read()
+            api_key = os.getenv('WEATHER_API_KEY')
+            res = urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+api_key+'&units=metric').read()
             json_data = json.loads(res)
 
             # Extract wind speed and convert to km/h
