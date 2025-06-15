@@ -36,6 +36,7 @@ pip install -r requirements.txt
 SECRET_KEY='your_secret_key'
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
+WEATHER_API_KEY='your_api_key'
 ```
 6. Create SECRET_KEY:
 ```
@@ -47,7 +48,15 @@ print(get_random_secret_key())
 ```
 Copy the secret key and use it in your .env file.<br>
 
-7. Run the server:
+7. Get the OpenWeather API key:
+- Go to https://openweathermap.org/apo
+- Create an account
+- Go to your profile
+- Go to My API keys
+- Create a new key and copy it
+- Paste it into your .env file
+
+9. Run the server:
 ```
 python manage.py runserver
 ```
