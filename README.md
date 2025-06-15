@@ -17,16 +17,41 @@
 ![image](https://github.com/user-attachments/assets/0a615dbf-bfdf-48b9-bfc8-3a24b0b602db)
 
 ## Installation
-1. Clone the Repository:
+1. Clone the Repository and go to directory:
 ```
 git clone https://github.com/Jeffreybekker/WeatherProject.git
+cd WeatherProject
 ```
 2. Create a virtual environment:
 ```
 python -m venv env
 ```
 3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
+4. Install dependencies:
+```
+pip install -r requirements.txt
+```
+5. Create .env-file in the root of the project with the following:
+```
+SECRET_KEY='your_secret_key'
+DEBUG=True
+ALLOWED_HOSTS=127.0.0.1,localhost
+```
+6. Create SECRET_KEY:
+```
+python
+```
+```
+from django.core.management.utils import get_random_secret_key
+print(get_random_secret_key())
+```
+Copy the secret key and use it in your .env file.<br>
 
+7. Run the server:
+```
+python manage.py runserver
+```
+Visit http://127.0.0.1:8000/weather-forecast in your browser.
 
 ## URL Endpoint
 <p>http://127.0.0.1:8000/weather-forecast</p>
